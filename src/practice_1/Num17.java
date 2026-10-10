@@ -1,3 +1,5 @@
+package practice_1;
+
 public class Num17 {
     public static long factorial(int n) {
         long result = 1;
