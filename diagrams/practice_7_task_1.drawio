@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="practice7-task1" name="Задание 1">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" page="1" pageWidth="1169" pageHeight="827">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="movable" value="&lt;b&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Movable&lt;/b&gt;&lt;hr&gt;+ moveUp(): void&lt;br&gt;+ moveDown(): void&lt;br&gt;+ moveLeft(): void&lt;br&gt;+ moveRight(): void" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rectangle" value="&lt;b&gt;MovableRectangle&lt;/b&gt;&lt;hr&gt;- x: int&lt;br&gt;- y: int&lt;br&gt;- width: int&lt;br&gt;- height: int&lt;br&gt;- xSpeed: int&lt;br&gt;- ySpeed: int&lt;hr&gt;+ MovableRectangle(x: int, y: int, width: int, height: int, xSpeed: int, ySpeed: int)&lt;br&gt;+ moveUp(): void&lt;br&gt;+ moveDown(): void&lt;br&gt;+ moveLeft(): void&lt;br&gt;+ moveRight(): void&lt;br&gt;+ toString(): String" style="html=1;whiteSpace=wrap;align=left;verticalAlign=top;spacing=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="440" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="implements" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="rectangle" target="movable">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
